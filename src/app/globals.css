@@ -32,6 +32,10 @@
     border-radius: 3px !important;
 }
 
+.react-calendar__navigation button {
+    text-transform: capitalize !important;
+}
+
 .react-calendar__navigation button:hover {
     background-color: #FAE27C !important;
     color: black !important;
