@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Geist Mono VF';
+    src: url('/fonts/GeistVF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.react-calendar {
+    width: 100% !important;
+    border: none !important;
+    font-family: 'Geist Mono VF', monospace;
+}
+
+.react-calendar__navigation__label__labelText {
+    /* font-size: 1.5rem !important; */
+    font-weight: 600 !important;
+}
+
+.react-calendar__tile--active {
+    background-color: #C3EBFA !important;
+    color: black !important;
+    border-radius: 3px !important;
+}
+
+.react-calendar__tile:hover {
+    background-color: #FAE27C !important;
+    color: black !important;
+    border-radius: 3px !important;
+}
+
+.react-calendar__navigation button:hover {
+    background-color: #FAE27C !important;
+    color: black !important;
+    border-radius: 3px !important;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
