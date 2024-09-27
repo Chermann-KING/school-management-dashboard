@@ -37,12 +37,9 @@ const AdminPage = () => {
       {/* RIFHT */}
       <div className="w-full lg:w-1/3 flex flex-col gap-8">
         {/* CALENDAR */}
-        <div>
-          <EventCalendar />
-        </div>
-        <div>
-          <Announcements />
-        </div>
+        <EventCalendar />
+        {/* ANNOUNCEMENTS */}
+        <Announcements />
       </div>
     </div>
   );

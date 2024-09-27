@@ -17,7 +17,7 @@ export default function DashboardLayout({
           className="flex justify-cente lg:justify-startr items-center gap-x-2 p-4"
         >
           <Image src={"/images/logo.png"} alt="logo" width={32} height={32} />
-          <span className="hidden lg:block">CK-School</span>
+          <span className="hidden lg:block font-bold">CK-School</span>
         </Link>
         <SidebarMenu />
       </div>
