@@ -15,7 +15,7 @@ const menuItems = [
       {
         icon: "/images/teacher.png",
         label: "Teachers",
-        href: "/teacher",
+        href: "/teachers",
         visible: ["admin", "teacher"],
       },
       {
